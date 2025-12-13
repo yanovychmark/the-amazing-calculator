@@ -1,5 +1,5 @@
 #made by markus sorry but i will not tell you what all this stuff does
-print("the amazing calculator v1.3 insert number of how many numbers use (1, 2, 3, 4) and then input what will the numbers be and select action - + / * "
+print("the amazing calculator v1.4 insert number of how many numbers use (1, 2, 3, 4) and then input what will the numbers be and select action - + / * "
       " for 4 -+ will be 1+1-1+1 and /* will be 1*1/1*1 */, +- will reverse placement")
 A = int(input("how many numbers? ---->"))
 if A == 1:
@@ -105,13 +105,19 @@ if alpha == "Y" or "y":
     print("01 no answear means that the action is wrong or is not a real one")
     print("02 no answear means that the number of numbers is to large or not correct")
     print("04 do not do that mistake (0/number)")
-    print("debug function is not correct")
+    print("05 debug function is not correct")
     print("if you want to to calculate again restart the program")
     delta = input("insert debug prompt---->")
     if delta == "quit":
         print("thanks for using")
     elif delta == 'null': #insert cool debug features here
         print("test")
+    elif delta == 'puzzle':
+        lol = input("why did the chicken cross the road?----->")
+        if lol == "legsrelatetackyfrygain":
+            print("correct")
+        else:
+            print("wrong")
     else:
         print("05 check debug")
 
