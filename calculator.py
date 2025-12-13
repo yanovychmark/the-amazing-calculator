@@ -23,7 +23,7 @@ elif A == 2:
     elif omega == "*":
         print(b * c)
     else:
-        print("if you got nothing check debug 01")
+        print("check debug 01")
 elif A == 3:
     b = int(input('number ---->'))
     c = int(input('number ---->'))
