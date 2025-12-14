@@ -1,5 +1,5 @@
 #made by markus sorry but i will not tell you what all this stuff does
-print("the amazing calculator v1.4 insert number of how many numbers use (1, 2, 3, 4) and then input what will the numbers be and select action - + / * "
+print("the amazing calculator v1.5 insert number of how many numbers use (1, 2, 3, 4, 5) and then input what will the numbers be and select action - + / * "
       " for 4 -+ will be 1+1-1+1 and /* will be 1*1/1*1 */, +- will reverse placement")
 A = int(input("how many numbers? ---->"))
 if A == 1:
@@ -97,10 +97,38 @@ elif A == 4:
             print(b / c * d / e)
     else:
         print("check debug 01")
+elif A == 5:
+    b = int(input('number ---->'))
+    c = int(input('number ---->'))
+    d = int(input('number ---->'))
+    e = int(input('number ---->'))
+    f = int(input('number ---->'))
+    omega = input("action ------>")
+    if omega == "-":
+        print(b - c - d - e - f)
+    elif omega == "+":
+        print(b + c + d + e + f)
+    elif omega == "/":
+        if b == 0:
+            print("04 check debug")
+        elif c == 0:
+            print("04 check debug")
+        elif d == 0:
+            print("04 check debug")
+        elif e == 0:
+            print("04 check debug")
+        elif f == 0:
+            print("04 check debug")
+        else:
+            print(b / c / d / e / f)
+    elif omega == "*":
+        print(b * c * d * e * f)
+    else:
+        print("check debug 01")
 else:
     print("check debug 02")
 alpha = input("debug mode Y/N?")
-if alpha == "Y" or "y":
+if alpha == "Y":
     print("ValueError: invalid literal for int() with base 10: means that text was used for numbers only")
     print("01 no answear means that the action is wrong or is not a real one")
     print("02 no answear means that the number of numbers is to large or not correct")
@@ -120,4 +148,6 @@ if alpha == "Y" or "y":
             print("wrong")
     else:
         print("05 check debug")
+else:
+    print("thanks for using")
 
