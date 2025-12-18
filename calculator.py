@@ -1,15 +1,15 @@
 #made by markus sorry but i will not tell you what all this stuff does
 l = True
 while l == True:
-    print("the amazing calculator v1.8 insert number of how many numbers use (1, 2, 3, 4, 5) and then input what will the numbers be and select action - + / * "
+    print("the amazing calculator v1.7 insert number of how many numbers use (1, 2, 3, 4, 5) and then input what will the numbers be and select action - + / * "
           " for 4 -+ will be 1+1-1+1 and /* will be 1*1/1*1 */, +- will reverse placement")
     A = float(input("how many numbers? ---->"))
     if A == 1:
-        b = float(input('number ---->'))
+        b = int(input('number ---->'))
         print(b)
     elif A == 2:
-        b = float(input('number ---->'))
-        c = float(input('number ---->'))
+        b = int(input('number ---->'))
+        c = int(input('number ---->'))
         omega = input("action ------>")
         if omega == "-":
             print(b - c)
@@ -27,9 +27,9 @@ while l == True:
         else:
             print("check debug 01")
     elif A == 3:
-        b = float(input('number ---->'))
-        c = float(input('number ---->'))
-        d = float(input('number ---->'))
+        b = int(input('number ---->'))
+        c = int(input('number ---->'))
+        d = int(input('number ---->'))
         omega = input("action ------>")
         if omega == "-":
             print(b - c - d)
@@ -49,10 +49,10 @@ while l == True:
         else:
             print("if you got nothing check debug 01")
     elif A == 4:
-        b = float(input('number ---->'))
-        c = float(input('number ---->'))
-        d = float(input('number ---->'))
-        e = float(input('number ---->'))
+        b = int(input('number ---->'))
+        c = int(input('number ---->'))
+        d = int(input('number ---->'))
+        e = int(input('number ---->'))
         omega = input("action ------>")
         if omega == "-":
             print(b - c - d - e)
@@ -100,11 +100,11 @@ while l == True:
         else:
             print("check debug 01")
     elif A == 5:
-        b = float(input('number ---->'))
-        c = float(input('number ---->'))
-        d = float(input('number ---->'))
-        e = float(input('number ---->'))
-        f = float(input('number ---->'))
+        b = int(input('number ---->'))
+        c = int(input('number ---->'))
+        d = int(input('number ---->'))
+        e = int(input('number ---->'))
+        f = int(input('number ---->'))
         omega = input("action ------>")
         if omega == "-":
             print(b - c - d - e - f)
