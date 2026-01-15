@@ -1,12 +1,41 @@
-#made by Markus sorry but i will not tell you what all this stuff does
+#made by Markus sorry but i will not tell you what all this stuff does also iu am NOT making an update to this unless a bug or i just fell like it
 l = True
 while l == True:
-    print("the amazing calculator v1.8 insert number of how many numbers use (1, 2, 3, 4, 5) and then input what will the numbers be and select action - + / * "
+    print("the amazing calculator v2 insert number of how many numbers use (1, 1.5, 2, 3, 4, 5) and then input what will the numbers be and select action - + / * "
           " for 4 -+ will be 1+1-1+1 and /* will be 1*1/1*1 */, +- will reverse placement at Y/N questions write Y for yes and everything else for no")
     A = float(input("how many numbers? ---->"))
     if A == 1:
         b = int(input('number1 ---->'))
         print(b)
+    elif A == 1.5:
+        b = int(input('number1 ---->'))
+        c = int(input('number2 ---->'))
+        omega = input("action ------>")
+        if omega == "-":
+            if c == 0:
+                print("04 check debug")
+            d = c/2
+            print(b - d)
+        elif omega == "+":
+            if c == 0:
+                print("04 check debug")
+            d = c/2
+            print(b + d)
+        elif omega == "/":
+            if b == 0:
+                print("04 check debug")
+            elif c == 0:
+                print("04 check debug")
+            else:
+                d = c/2
+                print(b + d)
+        elif omega == "*":
+            if c == 0:
+                print("04 check debug")
+            d = c/2
+            print(b * d)
+        else:
+            print("check debug 01")
     elif A == 2:
         b = int(input('number1 ---->'))
         c = int(input('number2 ---->'))
@@ -143,6 +172,10 @@ while l == True:
             l = False
         elif delta == 'null': #insert cool debug features here
             print("test")
+        elif delta == 'credits':
+            print("made by Markus")
+            print("inspired by calculator")
+            print("100percent human")
         elif delta == 'exit debug':
             print("ok")
         elif delta == 'puzzle':
